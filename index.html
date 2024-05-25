@@ -12,7 +12,13 @@
 
     <header>
         <h1>Welcome to My World!</h1>
-        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -20,7 +26,18 @@
             <h2>About This Page</h2>
             <p>This is a simple HTML page demonstrating the classic "Hello, World!" message.</p>
         </section>
-    
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
 
     <footer>
