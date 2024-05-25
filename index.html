@@ -2,14 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple Hello, World! HTML page">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="HTML, Hello World, Example">
     <title>Hello, World!</title>
-    <p>what is this</p>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Hello, World!</h1>
-    <p>This is a basic HTML page displaying "Hello, World!".</p>
+    <header>
+        <h1>Hello, World!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <p>Welcome to my simple HTML page!</p>
+        <button onclick="changeText()">Click me!</button>
+        <p id="demo">This is a basic HTML page displaying "Hello, World!".</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
